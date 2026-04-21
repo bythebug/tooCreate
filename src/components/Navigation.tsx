@@ -3,6 +3,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Infinity, Menu, X } from "lucide-react";
 import { useState } from "react";
 
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -43,8 +45,8 @@ const Navigation = () => {
           {/* CTA Button and Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            <Button className="btn-luxury-outline">
-              Book Strategy Call
+            <Button asChild className="btn-luxury-outline">
+              <a href={STRATEGY_MAILTO}>Book Strategy Call</a>
             </Button>
           </div>
 
@@ -74,8 +76,8 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <Button className="btn-luxury-outline mt-4">
-                Book Strategy Call
+              <Button asChild className="btn-luxury-outline mt-4">
+                <a href={STRATEGY_MAILTO}>Book Strategy Call</a>
               </Button>
             </div>
           </div>

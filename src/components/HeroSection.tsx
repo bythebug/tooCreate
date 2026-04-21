@@ -3,6 +3,8 @@ import { ArrowRight, Infinity } from "lucide-react";
 import heroImageDark from "@/assets/hero-black-yellow.jpg";
 import heroImageLight from "@/assets/hero-luxury.jpg";
 
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -58,9 +60,11 @@ const HeroSection = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button className="btn-luxury group text-lg px-10 py-4 h-auto">
-              Schedule Your Free Strategy Call
-              <ArrowRight className="ml-3 w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <Button asChild className="btn-luxury group text-lg px-10 py-4 h-auto">
+              <a href={STRATEGY_MAILTO}>
+                Schedule Your Free Strategy Call
+                <ArrowRight className="ml-3 w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
             
             {/* <Button variant="ghost" className="text-muted-foreground hover:text-foreground transition-colors">

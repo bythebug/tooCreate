@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Infinity, CheckCircle, Zap, Trophy } from "lucide-react";
 
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+
 const CTASection = () => {
   const benefits = [
     { icon: Zap, text: "Strategy session within 24 hours" },
@@ -54,15 +56,19 @@ const CTASection = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-            <Button className="btn-luxury">
-              <Calendar className="mr-2 w-5 h-5" />
-              Book Your Strategy Call
-              <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <Button asChild className="btn-luxury">
+              <a href={STRATEGY_MAILTO}>
+                <Calendar className="mr-2 w-5 h-5" />
+                Book Your Strategy Call
+                <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
             
-            <Button variant="outline" className="btn-luxury-outline">
-              View Case Studies
-              <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <Button asChild variant="outline" className="btn-luxury-outline">
+              <a href="#clients">
+                View Case Studies
+                <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
           </div>
           
@@ -98,13 +104,6 @@ const CTASection = () => {
                 className="text-accent hover:text-accent/80 transition-colors font-medium"
               >
                 hello@toocreate.com
-              </a>{" "}
-              or call{" "}
-              <a 
-                href="tel:+1-555-TOO-CREATE" 
-                className="text-accent hover:text-accent/80 transition-colors font-medium"
-              >
-                +1 (555) TOO-CREATE
               </a>
             </p>
           </div>

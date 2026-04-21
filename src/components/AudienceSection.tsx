@@ -7,6 +7,8 @@ import {
   ArrowRight
 } from "lucide-react";
 
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+
 const AudienceSection = () => {
   const audiences = [
     {
@@ -113,12 +115,14 @@ const AudienceSection = () => {
                   ))}
                 </div>
                 
-                <Button className="btn-luxury group/btn w-full relative overflow-hidden">
-                  <span className="relative z-10 flex items-center justify-center">
-                    Get Started
-                    <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                  </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-accent to-accent/80 scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left" />
+                <Button asChild className="btn-luxury group/btn w-full relative overflow-hidden">
+                  <a href={STRATEGY_MAILTO}>
+                    <span className="relative z-10 flex items-center justify-center">
+                      Get Started
+                      <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
+                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent to-accent/80 scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left" />
+                  </a>
                 </Button>
               </div>
               
