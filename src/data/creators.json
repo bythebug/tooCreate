@@ -1,0 +1,112 @@
+[
+  {
+    "name": "MrBeast",
+    "handle": "@MrBeast",
+    "subscribers": "200M+",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=MrBeast&backgroundColor=f59e0b",
+    "verified": true,
+    "growth": "+12M this year",
+    "niche": "Entertainment"
+  },
+  {
+    "name": "Ali Abdaal",
+    "handle": "@aliabdaal",
+    "subscribers": "5.2M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali&backgroundColor=3b82f6",
+    "verified": true,
+    "growth": "+800K this year",
+    "niche": "Productivity"
+  },
+  {
+    "name": "Emma Chamberlain",
+    "handle": "@emmachamberlain",
+    "subscribers": "12M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&backgroundColor=ec4899",
+    "verified": true,
+    "growth": "+1.2M this year",
+    "niche": "Lifestyle"
+  },
+  {
+    "name": "Marques Brownlee",
+    "handle": "@MKBHD",
+    "subscribers": "18M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marques&backgroundColor=8b5cf6",
+    "verified": true,
+    "growth": "+2.1M this year",
+    "niche": "Tech Reviews"
+  },
+  {
+    "name": "PewDiePie",
+    "handle": "@PewDiePie",
+    "subscribers": "111M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix&backgroundColor=ef4444",
+    "verified": true,
+    "growth": "+1.5M this year",
+    "niche": "Gaming"
+  },
+  {
+    "name": "James Charles",
+    "handle": "@jamescharles",
+    "subscribers": "23M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=James&backgroundColor=f97316",
+    "verified": true,
+    "growth": "+2.8M this year",
+    "niche": "Beauty"
+  },
+  {
+    "name": "Dude Perfect",
+    "handle": "@DudePerfect",
+    "subscribers": "59M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=DudePerfect&backgroundColor=10b981",
+    "verified": true,
+    "growth": "+3.2M this year",
+    "niche": "Sports"
+  },
+  {
+    "name": "Michelle Schroeder",
+    "handle": "@MakingSenseofCents",
+    "subscribers": "1.2M",
+    "platform": "Blog/Social",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michelle&backgroundColor=06b6d4",
+    "verified": true,
+    "growth": "+400K this year",
+    "niche": "Finance"
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "handle": "@garyvee",
+    "subscribers": "3.1M",
+    "platform": "Multi-Platform",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gary&backgroundColor=6366f1",
+    "verified": true,
+    "growth": "+500K this year",
+    "niche": "Business"
+  },
+  {
+    "name": "Simone Giertz",
+    "handle": "@simonegiertz",
+    "subscribers": "2.8M",
+    "platform": "YouTube",
+    "image": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Simone&backgroundColor=8b5cf6",
+    "verified": true,
+    "growth": "+300K this year",
+    "niche": "Engineering"
+  }
+]

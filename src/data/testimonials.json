@@ -1,0 +1,29 @@
+[
+  {
+    "quote": "tooCreate transformed our brand from unknown to industry leader in just 6 months. Their strategic approach and execution quality is unmatched.",
+    "author": "Sarah Chen",
+    "title": "CEO, TechFlow",
+    "rating": 5,
+    "company": "TechFlow",
+    "result": "500% growth in 6 months",
+    "avatar": "SC"
+  },
+  {
+    "quote": "Working with tooCreate was the best investment we made for our creator brand. They understand both content and business strategy perfectly.",
+    "author": "Marcus Rodriguez",
+    "title": "Content Creator, 2.3M followers",
+    "rating": 5,
+    "company": "Creator Brand",
+    "result": "2M+ new followers",
+    "avatar": "MR"
+  },
+  {
+    "quote": "Their go-to-market strategy for our product launch exceeded all expectations. Professional, creative, and results-driven.",
+    "author": "Emily Thompson",
+    "title": "Founder, InnovateLab",
+    "rating": 5,
+    "company": "InnovateLab",
+    "result": "$2M+ in revenue",
+    "avatar": "ET"
+  }
+]

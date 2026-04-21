@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Google",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "category": "Tech Giant"
+  },
+  {
+    "name": "Amazon",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "category": "E-commerce"
+  },
+  {
+    "name": "YouTube",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
+    "category": "Platform"
+  },
+  {
+    "name": "Netflix",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "category": "Streaming"
+  },
+  {
+    "name": "Meta",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "category": "Social Media"
+  },
+  {
+    "name": "Instagram",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "category": "Creator Platform"
+  },
+  {
+    "name": "TikTok",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "category": "Social Media"
+  },
+  {
+    "name": "Spotify",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "category": "Audio Platform"
+  },
+  {
+    "name": "Apple",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "category": "Tech Giant"
+  },
+  {
+    "name": "Microsoft",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "category": "Tech Giant"
+  },
+  {
+    "name": "LinkedIn",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "category": "Professional Network"
+  },
+  {
+    "name": "Twitch",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg",
+    "category": "Streaming Platform"
+  },
+  {
+    "name": "Discord",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg",
+    "category": "Communication"
+  },
+  {
+    "name": "Shopify",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+    "category": "E-commerce"
+  },
+  {
+    "name": "Tesla",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg",
+    "category": "Automotive"
+  }
+]

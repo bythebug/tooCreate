@@ -1,6 +1,9 @@
 import { Badge } from "@/components/ui/badge";
 import { Quote, Star, Play, ExternalLink, Users, TrendingUp, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
+import brandPartners from "@/data/brands.json";
+import topCreators from "@/data/creators.json";
+import testimonials from "@/data/testimonials.json";
 
 const TestimonialsSection = () => {
   const [activeCreator, setActiveCreator] = useState<number | null>(null);
@@ -41,217 +44,6 @@ const TestimonialsSection = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  const testimonials = [
-    {
-      quote: "tooCreate transformed our brand from unknown to industry leader in just 6 months. Their strategic approach and execution quality is unmatched.",
-      author: "Sarah Chen",
-      title: "CEO, TechFlow",
-      rating: 5,
-      company: "TechFlow",
-      result: "500% growth in 6 months",
-      avatar: "SC"
-    },
-    {
-      quote: "Working with tooCreate was the best investment we made for our creator brand. They understand both content and business strategy perfectly.",
-      author: "Marcus Rodriguez", 
-      title: "Content Creator, 2.3M followers",
-      rating: 5,
-      company: "Creator Brand",
-      result: "2M+ new followers",
-      avatar: "MR"
-    },
-    {
-      quote: "Their go-to-market strategy for our product launch exceeded all expectations. Professional, creative, and results-driven.",
-      author: "Emily Thompson",
-      title: "Founder, InnovateLab",
-      rating: 5,
-      company: "InnovateLab",
-      result: "$2M+ in revenue",
-      avatar: "ET"
-    }
-  ];
-
-  const brandPartners = [
-    { 
-      name: "Google", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-      category: "Tech Giant"
-    },
-    { 
-      name: "Amazon", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-      category: "E-commerce"
-    },
-    { 
-      name: "YouTube", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
-      category: "Platform"
-    },
-    { 
-      name: "Netflix", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-      category: "Streaming"
-    },
-    { 
-      name: "Meta", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-      category: "Social Media"
-    },
-    { 
-      name: "Instagram", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-      category: "Creator Platform"
-    },
-    {
-      name: "TikTok",
-      logo: "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
-      category: "Social Media"
-    },
-    {
-      name: "Spotify",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-      category: "Audio Platform"
-    },
-    {
-      name: "Apple",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-      category: "Tech Giant"
-    },
-    {
-      name: "Microsoft",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-      category: "Tech Giant"
-    },
-    {
-      name: "LinkedIn",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-      category: "Professional Network"
-    },
-    {
-      name: "Twitch",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg",
-      category: "Streaming Platform"
-    },
-    {
-      name: "Discord",
-      logo: "https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg",
-      category: "Communication"
-    },
-    {
-      name: "Shopify",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
-      category: "E-commerce"
-    },
-    {
-      name: "Tesla",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg",
-      category: "Automotive"
-    }
-  ];
-
-  const topCreators = [
-    {
-      name: "MrBeast",
-      handle: "@MrBeast",
-      subscribers: "200M+",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=MrBeast&backgroundColor=f59e0b",
-      verified: true,
-      growth: "+12M this year",
-      niche: "Entertainment"
-    },
-    {
-      name: "Ali Abdaal",
-      handle: "@aliabdaal", 
-      subscribers: "5.2M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ali&backgroundColor=3b82f6",
-      verified: true,
-      growth: "+800K this year",
-      niche: "Productivity"
-    },
-    {
-      name: "Emma Chamberlain",
-      handle: "@emmachamberlain",
-      subscribers: "12M",
-      platform: "YouTube", 
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&backgroundColor=ec4899",
-      verified: true,
-      growth: "+1.2M this year",
-      niche: "Lifestyle"
-    },
-    {
-      name: "Marques Brownlee",
-      handle: "@MKBHD",
-      subscribers: "18M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marques&backgroundColor=8b5cf6",
-      verified: true,
-      growth: "+2.1M this year", 
-      niche: "Tech Reviews"
-    },
-    {
-      name: "PewDiePie",
-      handle: "@PewDiePie",
-      subscribers: "111M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix&backgroundColor=ef4444",
-      verified: true,
-      growth: "+1.5M this year",
-      niche: "Gaming"
-    },
-    {
-      name: "James Charles",
-      handle: "@jamescharles",
-      subscribers: "23M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=James&backgroundColor=f97316",
-      verified: true,
-      growth: "+2.8M this year",
-      niche: "Beauty"
-    },
-    {
-      name: "Dude Perfect",
-      handle: "@DudePerfect",
-      subscribers: "59M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=DudePerfect&backgroundColor=10b981",
-      verified: true,
-      growth: "+3.2M this year",
-      niche: "Sports"
-    },
-    {
-      name: "Michelle Schroeder",
-      handle: "@MakingSenseofCents",
-      subscribers: "1.2M",
-      platform: "Blog/Social",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Michelle&backgroundColor=06b6d4",
-      verified: true,
-      growth: "+400K this year",
-      niche: "Finance"
-    },
-    {
-      name: "Gary Vaynerchuk",
-      handle: "@garyvee",
-      subscribers: "3.1M",
-      platform: "Multi-Platform",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Gary&backgroundColor=6366f1",
-      verified: true,
-      growth: "+500K this year",
-      niche: "Business"
-    },
-    {
-      name: "Simone Giertz",
-      handle: "@simonegiertz",
-      subscribers: "2.8M",
-      platform: "YouTube",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Simone&backgroundColor=8b5cf6",
-      verified: true,
-      growth: "+300K this year",
-      niche: "Engineering"
-    }
-  ];
 
   const nextSlide = () => {
     const maxSlide = Math.max(0, topCreators.length - cardsPerView);
@@ -553,7 +345,7 @@ const TestimonialsSection = () => {
                           cardsPerView === 1 ? 'w-20 h-20' : 'w-16 h-16'
                         }`}>
                           <img 
-                            src={creator.avatar} 
+                            src={creator.image || creator.avatar} 
                             alt={creator.name}
                             className="w-full h-full object-cover"
                           />
