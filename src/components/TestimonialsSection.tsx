@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      quote: "BingeLoop transformed our brand from unknown to industry leader in just 6 months. Their strategic approach and execution quality is unmatched.",
+      quote: "tooCreate transformed our brand from unknown to industry leader in just 6 months. Their strategic approach and execution quality is unmatched.",
       author: "Sarah Chen",
       title: "CEO, TechFlow",
       rating: 5,
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
       avatar: "SC"
     },
     {
-      quote: "Working with BingeLoop was the best investment we made for our creator brand. They understand both content and business strategy perfectly.",
+      quote: "Working with tooCreate was the best investment we made for our creator brand. They understand both content and business strategy perfectly.",
       author: "Marcus Rodriguez", 
       title: "Content Creator, 2.3M followers",
       rating: 5,
@@ -349,7 +349,7 @@ const TestimonialsSection = () => {
           </h2>
           
           <p className="text-luxury-body max-w-3xl mx-auto">
-            Even before launching BingeLoop, our team has contributed to content and strategy for top creators and brands via industry-leading agencies.
+            Even before launching tooCreate, our team has contributed to content and strategy for top creators and brands via industry-leading agencies.
           </p>
         </div>
 

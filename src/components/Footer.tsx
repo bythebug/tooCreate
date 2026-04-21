@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div>
               <span className="text-xl font-serif font-bold text-foreground">
-                BingeLoop
+                tooCreate
               </span>
               <p className="text-sm text-muted-foreground">
                 Built To Scale.
@@ -26,10 +26,10 @@ const Footer = () => {
               Ready to scale your brand?
             </p>
             <a 
-              href="mailto:hello@bingeloop.com" 
+              href="mailto:hello@toocreate.com" 
               className="text-accent hover:text-accent/80 transition-colors font-medium"
             >
-              hello@bingeloop.com
+              hello@toocreate.com
             </a>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-border/30 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2025 BingeLoop. All rights reserved. Built for brands that scale.
+            © 2025 tooCreate. All rights reserved. Built for brands that scale.
           </p>
         </div>
       </div>

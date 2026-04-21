@@ -94,17 +94,17 @@ const CTASection = () => {
             <p className="text-muted-foreground">
               Questions? Reach us at{" "}
               <a 
-                href="mailto:hello@bingeloop.com" 
+                href="mailto:hello@toocreate.com" 
                 className="text-accent hover:text-accent/80 transition-colors font-medium"
               >
-                hello@bingeloop.com
+                hello@toocreate.com
               </a>{" "}
               or call{" "}
               <a 
-                href="tel:+1-555-BINGE-LOOP" 
+                href="tel:+1-555-TOO-CREATE" 
                 className="text-accent hover:text-accent/80 transition-colors font-medium"
               >
-                +1 (555) BINGE-LOOP
+                +1 (555) TOO-CREATE
               </a>
             </p>
           </div>

@@ -23,7 +23,7 @@ const Navigation = () => {
               <Infinity className="w-5 h-5 text-accent-foreground animate-infinity" />
             </div>
             <span className="text-xl font-serif font-bold text-foreground">
-              BingeLoop
+              tooCreate
             </span>
           </div>
 

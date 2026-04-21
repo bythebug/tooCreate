@@ -40,7 +40,7 @@ const HeroSection = () => {
           
           <h1 className="text-luxury-xl text-foreground mb-8 leading-[0.85]">
             If It's <span className="text-accent font-bold">Growth</span>,<br />
-            It's <span className="text-accent font-bold bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">BingeLoop</span>
+            It's <span className="text-accent font-bold bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">tooCreate</span>
           </h1>
           
           <p className="text-luxury-body mb-8 max-w-3xl mx-auto opacity-90">
