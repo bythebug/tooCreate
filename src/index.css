@@ -22,32 +22,32 @@
     --primary: 0 0% 100%;
     --primary-foreground: 240 10% 3.9%;
 
-    /* Luxury Gold for accents */
-    --secondary: 45 100% 51%;
-    --secondary-foreground: 240 10% 3.9%;
+    /* Warm Gold for accents - readable on white */
+    --secondary: 43 74% 49%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
 
-    /* Rich Gold for accents */
-    --accent: 45 100% 51%;
-    --accent-foreground: 240 10% 3.9%;
+    /* Warm Gold for accents - readable on white */
+    --accent: 43 74% 49%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 45 100% 51%;
+    --ring: 43 74% 49%;
 
     --radius: 0.75rem;
 
     /* Custom Luxury Light Mode Variables */
     --luxury-black: 240 10% 3.9%;
     --luxury-black-light: 240 5.9% 10%;
-    --luxury-yellow: 45 100% 51%;
-    --luxury-yellow-light: 45 100% 65%;
-    --luxury-yellow-dark: 45 100% 35%;
+    --luxury-yellow: 43 74% 49%;
+    --luxury-yellow-light: 43 74% 60%;
+    --luxury-yellow-dark: 43 74% 38%;
     --luxury-white: 0 0% 98%;
     --luxury-gray: 240 3.8% 46.1%;
     --luxury-dark: 240 4.8% 95.9%;
