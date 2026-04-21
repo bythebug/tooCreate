@@ -34,12 +34,8 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="relative z-10 text-center px-6 max-w-7xl mx-auto">
         <div className="animate-fade-in-up">
-          {/* Premium Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm mb-8">
-            <span className="text-sm font-medium tracking-wide">Premium Growth Partner</span>
-            {/* Add this property above to make it yellowish text-accent */}
-          </div>
-          
+
+
           <h1 className="text-luxury-xl text-foreground mb-8 leading-[0.85]">
             If It's <span className="text-accent font-bold">Growth</span>,<br />
             It's <span className="text-accent font-bold bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">tooCreate</span>
