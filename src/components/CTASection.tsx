@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Infinity, CheckCircle, Zap, Trophy } from "lucide-react";
 
-const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
 
 const CTASection = () => {
   const benefits = [

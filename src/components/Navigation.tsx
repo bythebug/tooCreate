@@ -3,7 +3,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Infinity, Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI\'d like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
