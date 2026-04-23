@@ -64,12 +64,12 @@ const CTASection = () => {
               </a>
             </Button>
             
-            <Button asChild variant="outline" className="btn-luxury-outline">
+            {/* <Button asChild variant="outline" className="btn-luxury-outline">
               <a href="#clients">
                 View Case Studies
                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
-            </Button>
+            </Button> */}
           </div>
           
           <p className="text-muted-foreground text-sm mb-12">

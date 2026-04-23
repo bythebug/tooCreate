@@ -44,7 +44,7 @@ const Navigation = () => {
 
           {/* CTA Button and Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <Button asChild className="btn-luxury-outline">
               <a href={STRATEGY_MAILTO}>Book Strategy Call</a>
             </Button>
@@ -52,7 +52,7 @@ const Navigation = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <button
               className="p-2 text-muted-foreground hover:text-accent transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
