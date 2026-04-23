@@ -169,17 +169,17 @@
     @apply px-8 py-4 rounded-2xl font-semibold tracking-wide;
     @apply shadow-[var(--shadow-gold)] transition-[var(--transition-luxury)];
     @apply hover:shadow-[var(--shadow-luxury)] hover:scale-[1.02] hover:from-accent/90 hover:to-accent;
-    @apply border border-accent/20 relative overflow-hidden;
-    @apply before:absolute before:inset-0 before:bg-white/10 before:translate-x-[-100%] before:transition-transform before:duration-700;
+    @apply border border-accent/20 relative overflow-hidden isolate;
+    @apply before:absolute before:inset-0 before:-z-10 before:bg-white/10 before:translate-x-[-100%] before:transition-transform before:duration-700;
     @apply hover:before:translate-x-[100%];
   }
   
   .btn-luxury-outline {
     @apply border-2 border-accent text-accent bg-transparent backdrop-blur-sm;
     @apply px-8 py-4 rounded-2xl font-semibold tracking-wide;
-    @apply transition-[var(--transition-luxury)] relative overflow-hidden;
+    @apply transition-[var(--transition-luxury)] relative overflow-hidden isolate;
     @apply hover:bg-accent hover:text-accent-foreground hover:shadow-[var(--shadow-gold)] hover:scale-[1.02];
-    @apply before:absolute before:inset-0 before:bg-accent before:translate-y-[100%] before:transition-transform before:duration-500;
+    @apply before:absolute before:inset-0 before:-z-10 before:bg-accent before:translate-y-[100%] before:transition-transform before:duration-500;
     @apply hover:before:translate-y-0;
   }
   

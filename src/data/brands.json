@@ -1,43 +1,43 @@
 [
   {
-    "name": "Google",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-    "category": "Tech Giant"
+    "name": "Sony",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+    "category": "Electronics"
   },
   {
-    "name": "Amazon",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-    "category": "E-commerce"
+    "name": "DJI",
+    "logo": "https://findlogovector.com/wp-content/uploads/2018/10/dji-logo-vector.png",
+    "category": "Drones"
   },
   {
-    "name": "YouTube",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
-    "category": "Platform"
+    "name": "Shell",
+    "logo": "https://1000logos.net/wp-content/uploads/2017/06/Shell-Logo.png",
+    "category": "Energy"
   },
   {
-    "name": "Netflix",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-    "category": "Streaming"
+    "name": "Hyundai",
+    "logo": "https://static.vecteezy.com/system/resources/previews/020/500/443/non_2x/hyundai-logo-brand-symbol-with-name-white-design-south-korean-car-automobile-illustration-with-blue-background-free-vector.jpg",
+    "category": "Automotive"
   },
   {
-    "name": "Meta",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "category": "Social Media"
+    "name": "Insta 360",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5zfexbMUeIPCBCmsWAHdxXwBnRDbqN5Whw&s",
+    "category": "Camera"
   },
   {
-    "name": "Instagram",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-    "category": "Creator Platform"
+    "name": "MamaEarth",
+    "logo": "https://vectorseek.com/wp-content/uploads/2023/10/Mamaearth-Logo-Vector.svg-.png",
+    "category": "Personal Care"
   },
   {
-    "name": "TikTok",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
-    "category": "Social Media"
+    "name": "Samsung",
+    "logo": "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/360_197_1.png?$720_N_PNG$",
+    "category": "Electronics"
   },
   {
-    "name": "Spotify",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    "category": "Audio Platform"
+    "name": "Yamaha",
+    "logo": "https://download.logo.wine/logo/Yamaha_Motor_Company/Yamaha_Motor_Company-Logo.wine.png",
+    "category": "Automotive"
   },
   {
     "name": "Apple",
@@ -45,33 +45,33 @@
     "category": "Tech Giant"
   },
   {
-    "name": "Microsoft",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-    "category": "Tech Giant"
+    "name": "Realme",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Realme_logo.svg/3840px-Realme_logo.svg.png",
+    "category": "Electronics"
   },
   {
-    "name": "LinkedIn",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-    "category": "Professional Network"
+    "name": "Royal Enfield",
+    "logo": "https://logos-world.net/wp-content/uploads/2022/12/Royal-Enfield-Logo.png",
+    "category": "Automotive"
   },
   {
-    "name": "Twitch",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg",
-    "category": "Streaming Platform"
+    "name": "Oppo",
+    "logo": "https://download.logo.wine/logo/Oppo/Oppo-Logo.wine.png",
+    "category": "Electronics"
   },
   {
-    "name": "Discord",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg",
-    "category": "Communication"
+    "name": "JisuLife",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKpPSkMNbGLThwfOMPKcA50ck_q-jqVzxHQA&s",
+    "category": "Electronics"
   },
   {
-    "name": "Shopify",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+    "name": "Sony Alpha",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sony_Alpha_logo.svg/1280px-Sony_Alpha_logo.svg.png",
     "category": "E-commerce"
   },
   {
-    "name": "Tesla",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg",
-    "category": "Automotive"
+    "name": "Antigravity",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9FDkDCyJRgZvb47PePXDyqOnGB1KT9Q8aw&s",
+    "category": "Drone"
   }
 ]
