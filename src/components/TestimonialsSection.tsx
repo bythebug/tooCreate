@@ -45,6 +45,15 @@ const TestimonialsSection = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  // Auto-cycle brands carousel
+  useEffect(() => {
+    const maxSlide = Math.max(0, brandPartners.length - brandCardsPerView);
+    const interval = setInterval(() => {
+      setBrandSlide(prev => prev >= maxSlide ? 0 : prev + 1);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [brandCardsPerView]);
+
   const nextSlide = () => {
     const maxSlide = Math.max(0, topCreators.length - cardsPerView);
     setCurrentSlide(prev => prev >= maxSlide ? 0 : prev + 1); // Loop back to 0 when at end
@@ -246,11 +255,11 @@ const TestimonialsSection = () => {
                     }`}
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
-                    <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-2xl p-6 h-24 flex items-center justify-center group-hover:border-accent/30 transition-all duration-300 group-hover:scale-105 group-hover:bg-card/80">
+                    <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-2xl p-6 h-24 flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-accent/30 group-hover:shadow-[0_0_20px_hsl(var(--accent)/0.15)]">
                       <img 
                         src={brand.logo} 
                         alt={brand.name}
-                        className="max-w-full max-h-12 object-contain filter brightness-75 dark:brightness-50 group-hover:brightness-100 transition-all duration-300"
+                        className="max-w-full max-h-12 object-contain transition-all duration-300"
                         onError={(e) => {
                           const target = e.currentTarget;
                           target.outerHTML = `<div class="w-full h-full bg-accent/10 rounded-lg flex items-center justify-center"><span class="text-accent font-bold text-lg">${brand.name[0]}</span></div>`;
@@ -258,7 +267,7 @@ const TestimonialsSection = () => {
                       />
                     </div>
                     <div className="mt-3 text-center">
-                      <p className="text-xs font-medium text-foreground group-hover:text-accent transition-colors">
+                      <p className="text-xs font-medium text-foreground transition-colors">
                         {brand.name}
                       </p>
                       <p className="text-xs text-muted-foreground">
