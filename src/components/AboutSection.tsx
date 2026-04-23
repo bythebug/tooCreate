@@ -36,7 +36,7 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-20">
           <Badge variant="outline" className="mb-6 px-6 py-2 text-accent border-accent/30 backdrop-blur-sm">
-            About tooCreate
+            About toocreate
           </Badge>
           
           <h2 className="text-luxury-lg text-foreground mb-8">
@@ -45,7 +45,7 @@ const AboutSection = () => {
           </h2>
           
           <p className="text-luxury-body max-w-4xl mx-auto">
-            tooCreate combines the creative firepower of a top-tier studio with the strategic 
+            toocreate combines the creative firepower of a top-tier studio with the strategic 
             precision of elite consulting. We obsess over every detail, from brand messaging 
             to performance metrics, ensuring your launch doesn't just succeed — it dominates.
           </p>

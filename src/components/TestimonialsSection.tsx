@@ -141,7 +141,7 @@ const TestimonialsSection = () => {
           </h2>
           
           <p className="text-luxury-body max-w-3xl mx-auto">
-            Even before launching tooCreate, our team has contributed to content and strategy for top creators and brands via industry-leading agencies.
+            Even before launching toocreate, our team has contributed to content and strategy for top creators and brands via industry-leading agencies.
           </p>
         </div>
 
@@ -289,8 +289,8 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* Interactive Creator Carousel */}
-        <div className="border-t border-border/30 pt-20">
+        {/* Interactive Creator Carousel - Commented out for now */}
+        {/* <div className="border-t border-border/30 pt-20">
           <div className="text-center mb-16">
             <h3 className="text-2xl font-serif font-semibold text-foreground mb-4">
               Creators & Influencers
@@ -301,7 +301,6 @@ const TestimonialsSection = () => {
           </div>
           
           <div className="relative max-w-6xl mx-auto">
-            {/* Navigation Buttons */}
             <button
               onClick={prevSlide}
               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-card/80 backdrop-blur-sm border border-border/50 rounded-full flex items-center justify-center hover:border-accent/30 transition-all duration-300 group"
@@ -316,7 +315,6 @@ const TestimonialsSection = () => {
               <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors" />
             </button>
 
-            {/* Carousel Container */}
             <div className="overflow-hidden rounded-2xl">
               <div 
                 ref={carouselRef}
@@ -408,7 +406,6 @@ const TestimonialsSection = () => {
               </div>
             </div>
 
-            {/* Pagination Dots */}
             <div className="flex justify-center mt-8 space-x-2">
               {Array.from({ length: Math.max(1, topCreators.length - cardsPerView + 1) }).map((_, index) => (
                 <button
@@ -423,7 +420,7 @@ const TestimonialsSection = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

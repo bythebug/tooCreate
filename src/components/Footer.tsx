@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div>
               <span className="text-xl font-serif font-bold text-foreground">
-                tooCreate
+                toocreate
               </span>
               <p className="text-sm text-muted-foreground">
                 Built To Scale.
@@ -37,7 +37,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-border/30 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2025 tooCreate. All rights reserved. Built for brands that scale.
+            © 2025 toocreate. All rights reserved. Built for brands that scale.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { ArrowRight, Infinity } from "lucide-react";
 import heroImageDark from "@/assets/hero-black-yellow.jpg";
 import heroImageLight from "@/assets/hero-luxury.jpg";
 
-const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi toocreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
 
 const HeroSection = () => {
   return (
@@ -38,7 +38,7 @@ const HeroSection = () => {
 
           <h1 className="text-luxury-xl text-foreground mb-8 leading-[0.85]">
             If It's <span className="text-accent font-bold">Growth</span>,<br />
-            It's <span className="text-accent font-bold bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">tooCreate</span>
+            It's <span className="text-accent font-bold bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">toocreate</span>
           </h1>
           
           <p className="text-luxury-body mb-8 max-w-3xl mx-auto opacity-90">

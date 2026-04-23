@@ -3,7 +3,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Infinity, Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi tooCreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
+const STRATEGY_MAILTO = `mailto:hello@toocreate.com?subject=${encodeURIComponent('Free Strategy Call Request')}&body=${encodeURIComponent('Hi toocreate team,\n\nI would like to schedule a free strategy call to discuss growth opportunities for my brand.\n\nName: \nCompany/Brand: \nWhat I need help with: \nPreferred date/time: \n\nLooking forward to hearing from you!')}`;
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,11 +21,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
+            {/* <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <Infinity className="w-5 h-5 text-accent-foreground animate-infinity" />
-            </div>
+            </div> */}
             <span className="text-xl font-serif font-bold text-foreground">
-              tooCreate
+              toocreate
             </span>
           </div>
 
