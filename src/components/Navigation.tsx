@@ -20,14 +20,14 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <a href="/" className="flex items-center space-x-3">
             {/* <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
               <Infinity className="w-5 h-5 text-accent-foreground animate-infinity" />
             </div> */}
             <span className="text-xl font-serif font-bold text-foreground">
               toocreate
             </span>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
