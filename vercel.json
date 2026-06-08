@@ -1,6 +1,6 @@
 {
-  "buildCommand": null,
+  "buildCommand": "node scripts/build-cases.mjs",
   "outputDirectory": ".",
-  "installCommand": null,
+  "installCommand": "npm ci",
   "framework": null
 }
