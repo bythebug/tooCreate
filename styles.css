@@ -656,7 +656,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
    ============================================================ */
 .work-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
 .case {
-  grid-column: span 3;
+  grid-column: span 2;
   border-radius: 24px;
   overflow: hidden;
   position: relative;
@@ -670,7 +670,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transition: transform .5s var(--ease);
   cursor: pointer;
 }
-.case.feature { grid-column: span 3; }
+.case.feature { grid-column: span 4; min-height: 440px; }
 .case:hover { transform: translateY(-6px); }
 .case > img.case-bg {
   position: absolute; inset: 0; z-index: 0;
@@ -824,6 +824,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .cta-row { grid-template-columns: 1fr; gap: 30px; }
 }
 @media (max-width: 720px) {
+  .case.feature { min-height: 320px; }
   .nav-links, .nav-cta .btn { display: none; }
   .nav-toggle { display: flex; }
   .services-grid { grid-template-columns: 1fr; }
