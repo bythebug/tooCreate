@@ -417,6 +417,17 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .brand-cell:hover .mark { color: var(--cream); transform: translateY(-2px); }
 .brand-cell:hover .mark .glyph { color: var(--lime); }
 .brand-cell .mark em { font-style: normal; font-weight: 500; }
+.brand-cell .brand-logo {
+  max-height: 38px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(1) brightness(1.8);
+  opacity: 0.5;
+  transition: opacity .4s var(--ease), filter .4s var(--ease);
+}
+.brand-cell:hover .brand-logo { filter: grayscale(0); opacity: 1; }
 
 /* ============================================================
    STATS
