@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Sony",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+    "category": "Electronics"
+  },
+  {
+    "name": "DJI",
+    "logo": "https://findlogovector.com/wp-content/uploads/2018/10/dji-logo-vector.png",
+    "category": "Drones"
+  },
+  {
+    "name": "Shell",
+    "logo": "https://1000logos.net/wp-content/uploads/2017/06/Shell-Logo.png",
+    "category": "Energy"
+  },
+  {
+    "name": "Hyundai",
+    "logo": "https://static.vecteezy.com/system/resources/previews/020/500/443/non_2x/hyundai-logo-brand-symbol-with-name-white-design-south-korean-car-automobile-illustration-with-blue-background-free-vector.jpg",
+    "category": "Automotive"
+  },
+  {
+    "name": "Insta 360",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5zfexbMUeIPCBCmsWAHdxXwBnRDbqN5Whw&s",
+    "category": "Camera"
+  },
+  {
+    "name": "MamaEarth",
+    "logo": "https://vectorseek.com/wp-content/uploads/2023/10/Mamaearth-Logo-Vector.svg-.png",
+    "category": "Personal Care"
+  },
+  {
+    "name": "Samsung",
+    "logo": "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/360_197_1.png?$720_N_PNG$",
+    "category": "Electronics"
+  },
+  {
+    "name": "Yamaha",
+    "logo": "https://download.logo.wine/logo/Yamaha_Motor_Company/Yamaha_Motor_Company-Logo.wine.png",
+    "category": "Automotive"
+  },
+  {
+    "name": "Apple",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "category": "Tech Giant"
+  },
+  {
+    "name": "Realme",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Realme_logo.svg/3840px-Realme_logo.svg.png",
+    "category": "Electronics"
+  },
+  {
+    "name": "Royal Enfield",
+    "logo": "https://logos-world.net/wp-content/uploads/2022/12/Royal-Enfield-Logo.png",
+    "category": "Automotive"
+  },
+  {
+    "name": "Oppo",
+    "logo": "https://download.logo.wine/logo/Oppo/Oppo-Logo.wine.png",
+    "category": "Electronics"
+  },
+  {
+    "name": "JisuLife",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKpPSkMNbGLThwfOMPKcA50ck_q-jqVzxHQA&s",
+    "category": "Electronics"
+  },
+  {
+    "name": "Sony Alpha",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sony_Alpha_logo.svg/1280px-Sony_Alpha_logo.svg.png",
+    "category": "E-commerce"
+  },
+  {
+    "name": "Antigravity",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9FDkDCyJRgZvb47PePXDyqOnGB1KT9Q8aw&s",
+    "category": "Drone"
+  }
+]
