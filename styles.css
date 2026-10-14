@@ -322,7 +322,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 .scroll-cue {
   position: absolute;
-  bottom: 120px; left: 50%;
+  bottom: 160px; left: 50%;
   transform: translateX(-50%);
   z-index: 3;
   font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
@@ -838,6 +838,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .hero-grid { grid-template-columns: 1fr; }
   .hero-side { text-align: left; }
   .cta-row { grid-template-columns: 1fr; gap: 30px; }
+  .scroll-cue { display: none; }
 }
 @media (max-width: 720px) {
   .case.feature { min-height: 320px; }
