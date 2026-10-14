@@ -92,6 +92,15 @@
     counters.forEach(c => animateNum(c));
   }
 
+  /* ---------- Case cards: whole card navigates (cursor already signals it) ---------- */
+  document.querySelectorAll('.case').forEach(card => {
+    const link = card.querySelector('a.result');
+    if (!link) return;
+    card.addEventListener('click', e => {
+      if (!e.target.closest('a')) link.click();
+    });
+  });
+
   /* ---------- FAQ accordion ---------- */
   document.querySelectorAll('.faq-item').forEach(item => {
     const q = item.querySelector('.faq-q');
