@@ -137,20 +137,6 @@
     sections.forEach(s => so.observe(s));
   }
 
-  /* ---------- Hero parallax on motif ---------- */
-  const motif = document.querySelector('.hero-motif');
-  if (motif && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    let raf;
-    window.addEventListener('scroll', () => {
-      if (raf) return;
-      raf = requestAnimationFrame(() => {
-        const y = window.scrollY;
-        motif.style.transform = `translateY(calc(-50% + ${y * 0.12}px)) rotate(${y * 0.01}deg)`;
-        raf = null;
-      });
-    }, { passive: true });
-  }
-
   /* ---------- Year ---------- */
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
