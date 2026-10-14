@@ -322,7 +322,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 .scroll-cue {
   position: absolute;
-  bottom: 160px; left: 50%;
+  bottom: 240px; left: 50%;
   transform: translateX(-50%);
   z-index: 3;
   font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
