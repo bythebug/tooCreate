@@ -207,8 +207,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .nav-cta { display: flex; align-items: center; gap: 18px; }
 .nav-cta .btn { padding: 13px 24px; }
 
-.nav-toggle { display: none; flex-direction: column; gap: 5px; width: 30px; }
-.nav-toggle span { height: 2.5px; background: var(--lime); border-radius: 2px; transition: transform .35s var(--ease), opacity .25s; }
+.nav-toggle { display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px; width: 44px; height: 44px; margin: -7px; }
+.nav-toggle span { width: 30px; height: 2.5px; background: var(--lime); border-radius: 2px; transition: transform .35s var(--ease), opacity .25s; }
 
 .mobile-menu {
   position: fixed; inset: 0;
