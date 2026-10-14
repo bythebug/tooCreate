@@ -317,7 +317,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .hero-foot-item { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 0.95rem; }
 .hero-foot-item svg { color: var(--lime); flex-shrink: 0; }
 .hero-socials { display: flex; gap: 16px; }
-.hero-socials a { color: var(--lime); transition: transform .3s var(--ease); }
+.hero-socials a { display: inline-flex; padding: 11px; margin: -11px; color: var(--lime); transition: transform .3s var(--ease); }
 .hero-socials a:hover { transform: translateY(-3px) scale(1.1); }
 
 .scroll-cue {
@@ -804,7 +804,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-size: 0.85rem; color: var(--cream-dim);
 }
 .footer-socials { display: flex; gap: 16px; }
-.footer-socials a { color: var(--lime); transition: transform .3s var(--ease); }
+.footer-socials a { display: inline-flex; padding: 12px; margin: -12px; color: var(--lime); transition: transform .3s var(--ease); }
 .footer-socials a:hover { transform: translateY(-3px); }
 
 /* ============================================================
