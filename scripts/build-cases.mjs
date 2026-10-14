@@ -35,6 +35,10 @@ function renderPage(slug, meta, body) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${meta.title} — toocreate</title>
   <meta name="description" content="${meta.description || meta.title}" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#E8390C" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet" />
   <style>
