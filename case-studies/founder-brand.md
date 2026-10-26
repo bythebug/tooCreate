@@ -2,8 +2,6 @@
 title: 4,200 to 89,000 Instagram followers in 5 months. The founder spent 3 hours on content. Total.
 kicker: Founder Brand · AI Content Stack
 result: +84,800 followers · 3 brand deals · ₹0 spent on ads
-image: ../images/case-founder.png
-gradient: 135deg,#2e1206,#1c0601
 description: A Bengaluru-based wellness founder with zero time for content went from 4.2K to 89K Instagram followers using our AI-assisted content system — without spending a rupee on paid reach.
 ---
 

@@ -2,8 +2,6 @@
 title: 31K to 1.1M YouTube subscribers. Every frame managed by us.
 kicker: YouTube Growth · Full Channel Management
 result: 1.1M subscribers · ₹2.8Cr in brand deals · 3 videos crossing 5M views
-image: ../images/case-youtube.png
-gradient: 135deg,#33150a,#1c0601
 description: A Mumbai-based personal finance educator with a stalling channel hit 1.1M subscribers in 16 months under full toocreate management — with three videos crossing 5M views each.
 ---
 

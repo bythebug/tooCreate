@@ -2,8 +2,6 @@
 title: India's first rural creator IP
 kicker: Rural Content IP
 result: New-market penetration for a national paint brand
-image: ../images/case-rural.png
-gradient: 135deg,#2b1308,#1c0601
 description: How regional creators transforming community spaces helped a paint brand crack markets it couldn't reach with traditional advertising.
 ---
 

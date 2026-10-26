@@ -2,8 +2,6 @@
 title: We made a home services brand into must-watch television
 kicker: Branded Content IP · Celebrity Format
 result: 28M impressions · 620+ earned media hits · zero PR spend
-image: ../images/case-homeswap.png
-gradient: 135deg,#371810,#1c0601
 description: We created an original celebrity format for a home-services brand that generated 28M impressions and 620+ earned media mentions — without a single press release.
 ---
 

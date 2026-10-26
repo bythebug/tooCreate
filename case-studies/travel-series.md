@@ -2,8 +2,6 @@
 title: We made a two-wheeler brand the most talked-about name in travel content
 kicker: Case Study · Branded Content IP
 result: 14.3M organic views · 380+ press mentions · 22% brand recall lift
-image: ../images/case-travel.png
-gradient: 135deg,#3a1a0a,#1c0601
 description: How we built a 6-episode creator-led travel series that turned a two-wheeler brand into a cultural moment — without a single product demo.
 ---
 

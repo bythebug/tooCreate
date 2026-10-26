@@ -17,12 +17,16 @@
   const toggle = document.querySelector('.nav-toggle');
   const menu = document.querySelector('.mobile-menu');
   if (toggle && menu) {
-    const close = () => { menu.classList.remove('open'); document.body.style.overflow = ''; };
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('open');
-      document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
-    });
-    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
+    const setOpen = open => {
+      menu.classList.toggle('open', open);
+      menu.setAttribute('aria-hidden', String(!open));
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+    toggle.addEventListener('click', () => setOpen(!menu.classList.contains('open')));
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setOpen(false)));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') setOpen(false); });
   }
 
   /* ---------- Scroll reveal ---------- */
@@ -92,37 +96,9 @@
     counters.forEach(c => animateNum(c));
   }
 
-  /* ---------- Case cards: whole card navigates (cursor already signals it) ---------- */
-  document.querySelectorAll('.case').forEach(card => {
-    const link = card.querySelector('a.result');
-    if (!link) return;
-    card.addEventListener('click', e => {
-      if (!e.target.closest('a')) link.click();
-    });
-  });
-
-  /* ---------- FAQ accordion ---------- */
-  document.querySelectorAll('.faq-item').forEach(item => {
-    const q = item.querySelector('.faq-q');
-    const a = item.querySelector('.faq-a');
-    q.addEventListener('click', () => {
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item.open').forEach(o => {
-        o.classList.remove('open');
-        o.querySelector('.faq-a').style.maxHeight = null;
-        o.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
-      });
-      if (!isOpen) {
-        item.classList.add('open');
-        a.style.maxHeight = a.scrollHeight + 'px';
-        q.setAttribute('aria-expanded', 'true');
-      }
-    });
-  });
-
   /* ---------- Active nav link on scroll ---------- */
   const sections = [...document.querySelectorAll('section[id]')];
-  const navLinks = [...document.querySelectorAll('.nav-links a')];
+  const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
   const linkFor = id => navLinks.find(l => l.getAttribute('href') === '#' + id);
   if ('IntersectionObserver' in window && sections.length) {
     const so = new IntersectionObserver((entries) => {
@@ -137,7 +113,4 @@
     sections.forEach(s => so.observe(s));
   }
 
-  /* ---------- Year ---------- */
-  const yearEl = document.getElementById('year');
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
 })();
